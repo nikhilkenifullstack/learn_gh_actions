@@ -1,0 +1,10 @@
+name: Happy Apple
+on: workflow_dispatch
+jobs:
+  my_first_one:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Greet message
+        run: echo "Howdy!!"
+      - name: Print Bbye
+        run: echo "Well you triggered your first github action... Yay."
